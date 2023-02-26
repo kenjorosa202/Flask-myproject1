@@ -53,8 +53,10 @@ h3{
 .job-info{
     display: grid;
     grid-template-columns: 1fr 60px;
+    grid-template-rows: 90px;
     border-bottom-style:solid;
     border-bottom-width: 1px;
+    border-bottom-color: lightgrey;
 }
 h4{
     font-family: Roboto, Arial;
