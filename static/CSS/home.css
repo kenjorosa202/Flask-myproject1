@@ -1,12 +1,14 @@
 .body{
     padding-bottom: 500px;
 }
+a{
+    text-decoration: none;
+}
 p{
     font-family: Roboto, Arial;
     font-size: 17px;
     text-indent: 2em;
 }
-
 .h1-div{
 }
 h1{
@@ -25,6 +27,26 @@ h1{
 .h2-div{
     max-width: 800px;
     margin: 0 auto;
+    text-align: justify;
+}
+.about-div{
+    display: flex;
+    margin: 25px 0;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: lightgrey;
+}
+.about{
+    flex: 1;
+    margin: 0;
+}
+.social-div{
+    flex: 1;
+}
+.icons{
+    width: 7%;
+    border-radius: 2rem;
+    margin: 0 3px;
 }
 .about-me{
     display: block;
@@ -36,7 +58,7 @@ h2{
 .h3-div{
     padding-left: 50px;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 h3{
     font-family: Roboto, Arial;
